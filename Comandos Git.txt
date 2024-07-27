@@ -48,5 +48,7 @@ git checkout 979c9eca892608709785fa3b5936febc116b529c (me regresa a un estado an
 git checkout master --> nos regresa a la rama master donde estan todos los cambios
 git log podemos ver todos los cambios que se han hecho
 
+git checkout (codigo del commit que se obtiene de git log ) para moverse entre las ramas
+
 
 
