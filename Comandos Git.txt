@@ -33,9 +33,20 @@ git config --global user.email johndoe@example.com
 git checkout ..
 
 /*****borrar un archivo del repositorio
-gir reset nombredelarchivo.extension
+git reset nombredelarchivo.extension
 
 
+code prueba.txt (nos abre el visual studio code)
+
+/**** para ver los log
+git log
+
+/****** moverse entre los commits
+
+git checkout 979c9eca892608709785fa3b5936febc116b529c (me regresa a un estado anterior antes del ultimo commit)
+
+git checkout master --> nos regresa a la rama master donde estan todos los cambios
+git log podemos ver todos los cambios que se han hecho
 
 
 
