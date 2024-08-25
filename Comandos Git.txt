@@ -22,7 +22,7 @@ history
 /** Borrar un archivo
 git rm hola.txt
 
-/** Para remover el contenido del archivo y no el archivo en si
+/** Para deshacer el add . y ya no guardar los cambios
 git rm --cached prueba.txt
 
 /*** Configuracion de usuario y correo 
@@ -49,6 +49,10 @@ git checkout master --> nos regresa a la rama master donde estan todos los cambi
 git log podemos ver todos los cambios que se han hecho
 
 git checkout (codigo del commit que se obtiene de git log ) para moverse entre las ramas
+
+
+ESC --> :wq (para salir de vim)
+presionar q (cuando se da el comando git log y aparecen dos puntos (:))
 
 
 
