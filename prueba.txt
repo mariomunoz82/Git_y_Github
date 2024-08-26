@@ -6,3 +6,5 @@ Espero que tengan un excelety dia
 mi nombre es Mario en el curso de github
 
 la fecha es 2024
+
+Comenzando con git
