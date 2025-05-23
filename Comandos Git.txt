@@ -212,3 +212,11 @@ git stash list, sirve para ver los stash que has creado
 git stash pop, sirve para regresar los cambios que no se habian guardado
 git stash drop, sirve para borrar el stash que se ha hecho
 git stash branch nombre rama, para mandar el stash a otra nueva rama el stash debe de estar creado previamente en la rama sobre la cual se esta trabajando (git stash)
+/**** cuando mandas un stash a una nueva rama dentro de la nueva rama debes de realizar un commit guardando los cambios para que estos desaparezcan de la rama main por ejemplo o la rama donde se hizo el stash
+
+
+/*******GIT CLEAN******************/
+
+git clean --dry-run, lista cuales son los archivos que se van a borrar
+git clean -f remueve los archivos listados en --dry-run
+/***** clean solo funciona para archivos que no estan traqueados y que no estan en el gitignore, todo lo que este en gitignore sera ignorado y habra que borrarlo manualmente
