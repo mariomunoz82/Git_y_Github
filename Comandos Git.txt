@@ -211,4 +211,4 @@ git stash , sirve para dejar los cambios en memoria si no quieres guardarlos aun
 git stash list, sirve para ver los stash que has creado
 git stash pop, sirve para regresar los cambios que no se habian guardado
 git stash drop, sirve para borrar el stash que se ha hecho
-
+git stash branch nombre rama, para mandar el stash a otra nueva rama el stash debe de estar creado previamente en la rama sobre la cual se esta trabajando (git stash)
