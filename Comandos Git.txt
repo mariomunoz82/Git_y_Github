@@ -187,3 +187,28 @@ git push origin:refs/tags/nombredelTAg para borrar de github
 Ir a los settings delrepositorio (no del usuario) luego a la opcion Collaborators y luego al boton Add people
 Luego buscar el usuario que sera el colaborador de nuestro proyecto y enviar la invitacion
 El nuevo colaborador debe de clonar el repositorio.
+
+
+/****GITHUB PAGES*****/
+Para hacer que tu repositorio sea vistos en github page:
+1- Crea un repositorio en github con el siguiente formato: username.github.io
+2- El repositorio debe de ser publico
+3- clonar el repositorio a tu maquina local
+4- añadir un archivo index.html (indispensable ya que solamente es para desarrollos web o moviles)
+
+Si ya tienes un repositorio creado:
+1- Ir a settings (del repositorio no del usuario)
+2- seleccionar la opcion Pages
+3-Elegir la rama que se mostrara en github pages
+4- Guardar los cambios
+5- el repositorio debe ser publico.
+
+El formato de la ruta https es el siguiente: https://mariomunoz82.github.io/Git_y_Github/
+
+/********* GIT STASH********************/
+
+git stash , sirve para dejar los cambios en memoria si no quieres guardarlos aun y poder moverte entre las ramas ademas dejar los archivos tal cual estaban antes de hacer el stash
+git stash list, sirve para ver los stash que has creado
+git stash pop, sirve para regresar los cambios que no se habian guardado
+git stash drop, sirve para borrar el stash que se ha hecho
+
