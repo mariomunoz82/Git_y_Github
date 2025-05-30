@@ -220,3 +220,7 @@ git stash branch nombre rama, para mandar el stash a otra nueva rama el stash de
 git clean --dry-run, lista cuales son los archivos que se van a borrar
 git clean -f remueve los archivos listados en --dry-run
 /***** clean solo funciona para archivos que no estan traqueados y que no estan en el gitignore, todo lo que este en gitignore sera ignorado y habra que borrarlo manualmente
+
+
+/******PULL REQUEST***/
+https://github.com/pulls?q=is%3Apr+author%3Amariomunoz82 , ruta para ver los pull request creados
