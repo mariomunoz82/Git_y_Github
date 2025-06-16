@@ -68,7 +68,7 @@ git log --all --graph ,  Para ver de manera grafica los commits que se han reali
 git log --all --graph --decorate --oneline, para ver de una manera mas compacta la grafica de los commits
 
 
-
+git log -S "texto_a_buscar", comando para buscar entre los commits en que commit se uso la palabra buscada.
 
 /**************ALIAS***********************/
 
@@ -224,3 +224,24 @@ git clean -f remueve los archivos listados en --dry-run
 
 /******PULL REQUEST***/
 https://github.com/pulls?q=is%3Apr+author%3Amariomunoz82 , ruta para ver los pull request creados
+
+
+/*** GIT REFLOG***/
+
+git reflog , muestra todos los movimientos de HEAD (y otras referencias), incluso los que no aparecen en git log
+
+Muestra todas las acciones recientes que movieron HEAD, como commit, merge, rebase, checkout, etc., incluso si no quedaron en el historial final
+
+
+/*** GIT GREP***/
+
+git grep "texto_a_buscar", comando por el cual se puede buscar en que archivos aparece determinado texto.
+git grep -n "texto_a_buscar" ,  comando que indica la linea del archivo en la que aparece el texto buscado
+git greap -c "texto_a_buscar" , muestra el numero de veces que aparece el texto buscado en los archivos donde se encuentra.
+
+
+git shortlog, muestra todos los commits que ha hecho cada colaborador del proyecto
+git shortlog -sn, muestra solamente la cantidad de commits que ha hecho cada colaborador del proyecto.
+git shortlog -sn --all , muestra solamente la cantidad de commits que ha hecho cada colaborador del proyecto y los commits que fueron eliminados.
+git shortlog -sn --all --no-merges, muestra la cantidad de commits que ha hecho cada colaborador del proyecto sin tomar en cuenta los merge.
+git blame nombredearchivo, sirve para ver quien hizo que en el archivo seleccionado, es como un historial de todos los cambios que se hicieron.
