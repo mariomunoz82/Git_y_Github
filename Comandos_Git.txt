@@ -117,6 +117,8 @@ git checkout nombrerama, cambias de la rama principal a la nueva rama o vicevers
 git branch, para ver las ramas creadas.
 git branch -D nombrerama, para borrar una rama
 git push origin Rama1, para hacer push a las demas ramas que no sean main y subirlas a github
+git branch -r , para ver las ramas remotas.
+git branch -a , para ver todas las ramas locales y remotas.
 
 
 
@@ -245,3 +247,4 @@ git shortlog -sn, muestra solamente la cantidad de commits que ha hecho cada col
 git shortlog -sn --all , muestra solamente la cantidad de commits que ha hecho cada colaborador del proyecto y los commits que fueron eliminados.
 git shortlog -sn --all --no-merges, muestra la cantidad de commits que ha hecho cada colaborador del proyecto sin tomar en cuenta los merge.
 git blame nombredearchivo, sirve para ver quien hizo que en el archivo seleccionado, es como un historial de todos los cambios que se hicieron.
+git blame nombredearchivo -L12,24, muestra quien hizo que en las lineas que se especifican.
