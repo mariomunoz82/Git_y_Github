@@ -249,3 +249,7 @@ git shortlog -sn --all , muestra solamente la cantidad de commits que ha hecho c
 git shortlog -sn --all --no-merges, muestra la cantidad de commits que ha hecho cada colaborador del proyecto sin tomar en cuenta los merge.
 git blame nombredearchivo, sirve para ver quien hizo que en el archivo seleccionado, es como un historial de todos los cambios que se hicieron.
 git blame nombredearchivo -L12,24, muestra quien hizo que en las lineas que se especifican.
+
+/******issues***/
+Para cerrar issues desde git, cuando ya se ha solucionado mediante un cambio, se debe de agregar la palabra fixes y el numero del issue ejemplo:
+git commit -am "cambio fixes #1"
