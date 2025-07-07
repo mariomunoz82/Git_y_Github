@@ -242,6 +242,7 @@ git grep -n "texto_a_buscar" ,  comando que indica la linea del archivo en la qu
 git greap -c "texto_a_buscar" , muestra el numero de veces que aparece el texto buscado en los archivos donde se encuentra.
 
 
+/***comandos adicionales**/
 git shortlog, muestra todos los commits que ha hecho cada colaborador del proyecto
 git shortlog -sn, muestra solamente la cantidad de commits que ha hecho cada colaborador del proyecto.
 git shortlog -sn --all , muestra solamente la cantidad de commits que ha hecho cada colaborador del proyecto y los commits que fueron eliminados.
