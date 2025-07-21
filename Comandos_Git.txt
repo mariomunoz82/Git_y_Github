@@ -172,6 +172,7 @@ git remote set-url origin git@github.com:mariomunoz82/Git_y_Github.git, donde la
 
 /******GIT TAG******/
 git tag -a nombretag -m "descripcion" codigo del commit , para agregar un TAG, se pueden visualizar especialmente en Git Hub
+ejemplo: git tag -a V4.0 -m "Release de la ultima version de Git_Github" a0c5b40db9
 
 git tag , para ver los tags que se han creado
 
@@ -183,6 +184,8 @@ git tag -d nombredelTAg , para borrar el tag de git
 git push origin:refs/tags/nombredelTAg para borrar de github
 
 
+IMPORTANTE!!!, Antes de crear el tag primero debes de hacer el commit con los cambios para obtener el codigo del commit
+y antes de subir el tag a Github debes de hacer un push normal para subir todos los cambis, si no el tag dara un mensaje que no tiene una rama asignada.
 
 
 /****AGREGAR COLABORADORES***/
@@ -253,3 +256,7 @@ git blame nombredearchivo -L12,24, muestra quien hizo que en las lineas que se e
 /******issues***/
 Para cerrar issues desde git, cuando ya se ha solucionado mediante un cambio, se debe de agregar la palabra fixes y el numero del issue ejemplo:
 git commit -am "cambio fixes #1"
+
+
+
+https://www.dropbox.com/scl/fo/a1grrp2z13chdthd22e35/AFWXJJWrYxekrILbwdLrDvY?rlkey=sfahagai6n2rjykokg8knukvz&st=r5t9gaya&dl=0
