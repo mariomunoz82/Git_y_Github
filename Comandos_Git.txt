@@ -259,4 +259,3 @@ git commit -am "cambio fixes #1"
 
 
 
-https://www.dropbox.com/scl/fo/a1grrp2z13chdthd22e35/AFWXJJWrYxekrILbwdLrDvY?rlkey=sfahagai6n2rjykokg8knukvz&st=r5t9gaya&dl=0
