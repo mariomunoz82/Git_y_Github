@@ -9,3 +9,5 @@ la fecha es 2024
 
 Comenzando con git
 comando git show agregado
+
+este es un comando de prueba
