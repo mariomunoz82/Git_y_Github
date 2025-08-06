@@ -2,6 +2,8 @@ GIT BASH
 
 gitk para abrir un entorno grafico de la consola
 
+git config --list Este comando muestra la lista de todas las configuraciones de Git.
+
 /*** Limpiar la consolla
 clear  
 
@@ -108,7 +110,8 @@ git diff 79c9eca892608709 92608709785fa3 , mostrar las diferencias entre un comm
 /** GIT COMMIT -A
 git commit -a, esto manda directamente al staging, sin necesidad de hacer git add, es decir hace commit y add al mismo tiempo
 git commit -am " descripcion del commit",  la misma funcionalidad pero este no entra a vim
-
+git commit --amend , Este comando te permite modificar el ultimo commit esto incluye la adicion de nuevos cambios o la modificacion del mensaje del commit
+git revert <commit> Este comando crea un nuevo commit que deshace los cambios en el commit especificado.
 
 
 /** GIT BRANCH
@@ -119,7 +122,8 @@ git branch -D nombrerama, para borrar una rama
 git push origin Rama1, para hacer push a las demas ramas que no sean main y subirlas a github
 git branch -r , para ver las ramas remotas.
 git branch -a , para ver todas las ramas locales y remotas.
-
+git checkout -b <branch> este comando crea una nueva rama y cambia a ella en un solo paso.
+git branch -m <old_name><new_name> este comando cambia el nombre de la rama local
 
 
 /** GIT MERGE
